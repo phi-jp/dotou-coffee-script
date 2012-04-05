@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <meta charset=UTF-8 />
+        <title>CoffeeScritp Test</title>
+        <script src="../lib/coffee-script.js"></script>
+        <script src="../lib/jquery.min.js"></script>
+    </head>
+    
+    <body>
+        <h1>CoffeeScritp Test</h1>
+        <script>
+            $(function() {
+                $.ajax({
+                    url:"../src/base/010.coffee",
+                    dataType: "text",
+                    success: function(data) {
+                        var js = CoffeeScript.compile(data);
+                        eval(js);
+                    }
+                });
+            });
+        </script>
+    </body>
+    
+</html>
