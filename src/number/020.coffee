@@ -1,4 +1,4 @@
 # 8進数表記を使ってみよう
 
 # js 同様
-document.write 020
+document.write 0o20
