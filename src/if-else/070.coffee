@@ -1,4 +1,4 @@
-# 怒濤のCoffeeScript入門 - 後置 if 文を使ってみよう★
+# 怒濤のCoffeeScript入門 - 後置 if 文を使ってみよう
 
 
 hoge = 100
