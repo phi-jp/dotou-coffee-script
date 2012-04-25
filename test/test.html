@@ -13,10 +13,12 @@
         <h1>CoffeeScritp Test</h1>
         <script>
             $(function() {
+                var script_path = document.location.search.substr(1);
+                
                 $.ajax({
-                    url:"../src/base/010.coffee",
+                    url     : script_path,
                     dataType: "text",
-                    success: function(data) {
+                    success : function(data) {
                         var js = CoffeeScript.compile(data);
                         eval(js);
                     }

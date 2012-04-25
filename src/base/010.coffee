@@ -1,1 +1,3 @@
-document.write "Hello, world!"
+# 1行コメントを書いてみよう
+
+# こんな感じでコメント書けます.
